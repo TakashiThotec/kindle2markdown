@@ -1,0 +1,9 @@
+pyautogui
+pillow
+fpdf
+pygetwindow
+img2pdf
+streamlit-cropper
+pytesseract
+pdf2image
+streamlit
