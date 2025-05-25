@@ -1,0 +1,16 @@
+__pycache__/
+*.png
+*.pdf
+.venv/
+.vscode/
+*.pyc
+
+# ローカル設定ファイル（各PC固有）
+config.local.json
+# OCR出力ファイル
+output.md
+*.md
+!README.md
+# スクリーンショット
+screenshot_*.png
+screenshots/
