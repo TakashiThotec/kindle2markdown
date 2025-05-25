@@ -1,0 +1,29 @@
+{
+  "app": {
+    "title": "Kindle2Markdown",
+    "default_pages": 100,
+    "default_page_key": "right",
+    "default_ocr_lang": "jpn+jpn_vert+eng",
+    "window_keyword": "Kindle for PC"
+  },
+  "capture": {
+    "default_region": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    "screenshot_format": "png",
+    "filename_format": "screenshot_{:04d}.png"
+  },
+  "ocr": {
+    "tesseract_config": "--psm 6",
+    "supported_languages": [
+      "jpn",
+      "jpn_vert", 
+      "eng",
+      "jpn+jpn_vert+eng"
+    ],
+    "output_format": "markdown"
+  }
+}
